@@ -10,10 +10,6 @@ var server = app.listen(8081, function () {
 
 // now build the api
 
-app.get('/', function (req, res) {
-    res.send('Hello World');
-});
-
 
 const LONDON_LOCATION = "LONDON";
 const LIVERPOOL_LOCATION = "LIVERPOOL";
