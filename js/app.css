@@ -1,0 +1,14 @@
+.container {
+    display:flex;
+    justify-content:space-between;
+}
+.container > div {
+    margin:10px;
+}
+.first, .third{
+    width:200px;
+    height:400px;
+}
+.second {
+    width:300px;
+}
